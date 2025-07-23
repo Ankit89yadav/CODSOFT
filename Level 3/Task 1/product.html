@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Product Details</title>
+  <link rel="stylesheet" href="style1.css" />
+</head>
+<body>
+  <header>
+    <h1>MyShop</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="product-detail">
+    <img src="smart watch.jpg" alt="Product Image 1" />
+    <div>
+      <h2><a href="product1.html" class="btn">Smartwatch X </a></h2>
+     
+      <p>Price: ₹11,999</p>
+      <p>The latest Smartwatch X with ultra-fast processor and AMOLED display. Long battery life and top-tier camera.</p>
+      <button onclick="addToCart()">Add to Cart</button>
+      <button onclick="buyNow()">Buy Now</button>
+    </div>
+     <img src="earbuds.webp" alt="Product Image 2" />
+    <div>
+      <h2><a href="product2.html" class="btn">Earbuds</a></h2>
+      <p>Price: ₹3,999</p>
+      <p>realme Buds Air7 with 52dB ANC, 12.4mm Driver, 52hrs Playback, IP55 & 45ms Low Latency Bluetooth  (Slate Grey, True Wireless)</p>
+      <button onclick="addToCart()">Add to Cart</button>
+      <button onclick="buyNow()">Buy Now</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 MyShop. All rights reserved.</p>
+  </footer>
+
+  <script>
+    function addToCart() {
+      alert("Product added to cart!");
+    }
+
+    function buyNow() {
+      alert("Redirecting to checkout...");
+    }
+  </script>
+</body>
+</html>
